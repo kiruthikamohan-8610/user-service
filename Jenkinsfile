@@ -10,8 +10,8 @@ pipeline {
         ECS_SERVICE = "arun-order-service-service"
         TASK_DEF_NAME = "arun-order-service"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        AWS_ACCOUNT_ID = "526081839201"
-        ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
+        AWS_ACCOUNT_ID = "981026211544"
+        ECR_URI = "981026211544.dkr.ecr.us-east-1.amazonaws.com/user-service"
     }
 
     stages {
